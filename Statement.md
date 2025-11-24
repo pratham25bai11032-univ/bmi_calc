@@ -25,15 +25,15 @@ This project wont connect to internet , ask you to log in , show fancy charts .
 
 ## who is this for? 
 
-This tool is for 
+This tool is for: 
 * Students and new coders who want to practice using python working wityh files and handling mistakes.
 * People who want simple , private way to track their process without any fear of getting the info/data public or sharing their info with suspicious apps 
 * people who need to figure out and records BMI for small people or group using simple commands
 
 
-# main things it can do 
+# Main things it can do: 
 
-this thing does 3 jobs 
+this thing does 3 jobs:
 
 1. Calculate BMI
 	you type you name, weight(KG) , height(cm)
@@ -48,4 +48,5 @@ this thing does 3 jobs
     *   It reads every line in the bmi\_history.txt file.
 
     *   It shows you all your past BMI records on the screen.
+
 
