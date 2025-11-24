@@ -13,7 +13,7 @@ What we need is a basic tool you can use from computer to figure out your BMI an
  This project is just one file that does everything a person expect from BMI calculator. 
 It is meant for one/multiple person and is made of only one python script . 
 
-## Here is wqhat it will do:
+## Here is what it will do:
 
 * Figure out your BMI using the standard formula.
 * Sort your BMI into records and keep them recorded
@@ -48,3 +48,4 @@ this thing does 3 jobs
     *   It reads every line in the bmi\_history.txt file.
 
     *   It shows you all your past BMI records on the screen.
+
