@@ -1,29 +1,25 @@
-#Python BMI Tracker calculates BMI, categorizes health, and saves history locally.
-##Modular BMI tracker and History Log.
+# Python BMI Tracker calculates BMI, categorizes health, and saves history locally.
+## Modular BMI tracker and History Log.
 
-Overview of Project
+* Overview of Project
 
 The BMI python programme is a program designed to help users calculate their Body Mass Index(BMI) and maintain records of the readings of the user measurements . The system is built with in mind to keep the user interface , calculation logic, and record keeping logic in separate codes and to maintain good visibility and good software design. It is built on concepts such as function definition,conditional logic,datetime handling and file I/O.
 
-Key features
+# Key features
 
-the project core functionality is divided is into following areas:
+The project core functionality is divided is into following areas:
 
-Module 				Description 				Location
+* Calculation function--> takes weight and height,computes BMI and determines the health category.
+* location->calculatio_bmi function	
 
-Calculation		takes weight and height,computes BMI 		calculatio_bmi function
-			and determines the health category.	
-
-history 		store the resulting data and measurements	view_history function
-
-
-User interface		provides a simple menu for interaction,		main()function
-			input prompt and display of result,
-			history						
+* history function--> store the resulting data and measurements	
+* location-> view_history function
 
 
+* User interface-->	provides a simple menu for interaction,input prompt and display of result,history 
+* location-> main()function						
 
-Non functional requirements
+# Non functional requirements
 
 
 1. Usability: the system uses a straightforward , menu-driven interface with clear commands(1,2,3).
@@ -32,19 +28,19 @@ Non functional requirements
 4. Data Integrity: Alll records are time stamped, ensuring that the chronological order of readings is preserved.
 
 
-Technologies/Tools used 
-*Language : Python 3.x
-*Standard Library : datetime
-*Storage : Local file I/O (bmi_history.txt)
+# Technologies/Tools used 
+* Language : Python 3.x
+* Standard Library : datetime
+* Storage : Local file I/O (bmi_history.txt)
 
-Steps to Install and run the Project
+# Steps to Install and run the Project
 1. Prerequisites: Ensure python is installed
 2. Setup : Save the entire code into a single file name bmi_tracker.py
 3. Execution : Open your Command/IDE/pythgon program runner and browse and opent the file and execute the following command
 		python bmi_tracker.py
 4. Use : Follow the BMI menu to interact and find the BMI.
 
-Instruction for testing
+# Instruction for testing
 *   **Test 1 (It Works):** Enter valid numbers (like Weight: 70 kg, Height: 175 cm). Confirm the BMI is accurate (22.86) and that the category shows Normal Weight.
     *   **Test 2 (Bad Input):** Enter letters instead of numbers for Weight or Height (like abc). It should display Error: Weight and Height must be valid numbers and return to the main menu without crashing.
 2.  **Saving & Showing History**
